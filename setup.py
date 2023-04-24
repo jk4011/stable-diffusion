@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='latent-diffusion',
-    version='0.0.1',
+    version='0.0.2',
     description='',
-    packages=find_packages(),
+    packages=["ldm"],
     install_requires=[
         'torch',
         'numpy',
